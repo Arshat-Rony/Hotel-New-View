@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started Simple Hotel Booking Website
 
 [hotel-new-view](https://hotel-new-view.firebaseapp.com/home)
 
