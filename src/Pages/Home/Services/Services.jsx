@@ -9,7 +9,7 @@ const Services = () => {
             <div className=" services">
                 <div className="float mb-5"></div>
                 <h3 className='service-heading'>Infinity Pool</h3>
-                <p>A swimming pool is a large hole in the ground that has been made and filled with water so that people can swim in it. Synonyms: swimming baths, pool, baths, lido More Synonyms of swimming pool.</p>
+                <p>A swimming pool is a large hole in the ground that has been made and filled with water so that people can swim in it. </p>
 
                 <div className="services-box d-flex jusitfy-content-between align-items-center flex-column flex-md-row">
                     <div className="service">
