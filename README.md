@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was Started with react,react-bootstrap  [hotel-new-view.firebaseapp.com](hotel-new-view.firebaseapp.com).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
