@@ -1,0 +1,10 @@
+.or {
+    background-color: #CB8670;
+    height: 2px;
+    width: 100%;
+}
+
+#pass {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+#log-inOut,
+#log-in-out {
+    background-color: #CB8670;
+    border-radius: 0;
+    transition: all 0.6s;
+    padding: 12px 30px;
+}
+
+#log-inOut,
+#log-in-out:hover {
+    background-color: #363636;
+}
+
+.logo-text {
+    font-family: 'My Soul', cursive;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.header {
+    border-bottom: 2px solid #CB8670;
+}

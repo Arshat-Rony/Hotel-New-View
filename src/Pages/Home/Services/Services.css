@@ -1,0 +1,45 @@
+.services-container {
+    background-image: url(../../../images/slider/4.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.services {
+    background-color: rgba(0, 0, 0, 0.63);
+    border: 2px solid #CB8670;
+    width: 400px;
+    margin: 0 auto;
+    font-family: lato sans-serif;
+    padding: 40px 20px;
+    color: white;
+}
+
+.service svg {
+    color: #cb8770e0;
+    font-size: 40px;
+}
+
+@media (min-width:768px) {
+    .service-heading {
+        font-size: 50px;
+    }
+
+    .services p {
+        font-size: 20px;
+    }
+
+    .services {
+        width: 500px;
+        height: 600px;
+        margin-right: 100px;
+        margin-left: auto;
+    }
+
+    .service {
+        width: 160px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}

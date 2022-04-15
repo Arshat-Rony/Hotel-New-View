@@ -1,0 +1,51 @@
+.feature-container {
+    position: relative;
+}
+
+.feature-container img {
+    max-width: 100%;
+    display: block;
+
+}
+
+.feature-text {
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 20px;
+    border: 2px solid #CB8670;
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    bottom: 300px;
+}
+
+#price-btn {
+    position: relative;
+    top: 30px;
+    border: 2px solid #CB8670;
+    background-color: black;
+    padding: 8px 25px;
+}
+
+#feature-btn {
+    position: relative;
+    top: 50px;
+}
+
+.about-box {
+    font-family: lato sans-serif;
+}
+
+@media (min-width:768px) {
+    .feature-text {
+        width: 300px;
+        padding: 10px;
+        height: 200px;
+        bottom: 220px;
+    }
+
+    #feature-btn {
+        position: relative;
+        top: -30px;
+    }
+}

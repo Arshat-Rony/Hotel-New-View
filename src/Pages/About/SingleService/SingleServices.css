@@ -1,0 +1,25 @@
+.singleservices {
+    color: white;
+    background-color: #010203c1;
+    border: 2px solid #CB8670;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    font-family: lato sans-serif;
+    width: 250px;
+    margin: 0 auto;
+    transition: all 0.8s;
+    font-weight: bolder;
+}
+
+.singleservices:hover {
+    background-color: #CB8670;
+    color: white;
+}
+
+.singleservices svg {
+    font-size: 40px;
+    color: #CB8670;
+}

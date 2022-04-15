@@ -1,0 +1,100 @@
+.about-service-box {
+    font-family: lato sans-serif;
+    background-image: url(../../../src/images/about/bg-4.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    padding: 60px 0;
+    position: relative;
+}
+
+.about-features-container {
+    font-family: lato sans-serif;
+    margin-top: 120px;
+}
+
+.about-text {
+    position: relative;
+    z-index: 1;
+}
+
+.about-text h2,
+p {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.about-service-box::before {
+    background-color: rgba(0, 0, 0, 0.457);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.about-services {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    z-index: 1;
+    grid-gap: 15px;
+}
+
+.about-features {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.about-client-container {
+    background-image: url(../../../src/images/about/Rectangle\ 2.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+}
+
+.about-client {
+    border: 2px solid #CB8670;
+    padding: 30px;
+    font-family: lato sans-serif;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.about-client span {
+    color: #CB8670;
+}
+
+@media (min-width:768px) {
+    .about-services {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-service-box {
+        height: 800px;
+    }
+
+    .about-text h2 {
+        font-size: 45px;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+
+    .about-features {
+        max-width: 80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-client {
+        width: 600px;
+    }
+}

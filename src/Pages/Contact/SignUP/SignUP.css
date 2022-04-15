@@ -1,0 +1,64 @@
+.register {
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid #CB8670;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow:
+        -15px 15px 0px #CB8670;
+
+}
+
+.form-title {
+    color: #CB8670;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.register form input:not([type="checkbox"]) {
+    border: 1px solid #CB8670;
+    height: 50px;
+}
+
+.submit-btn {
+    border: 2px solid #CB8670;
+    background-color: #CB8670;
+    color: black;
+    transition: all 0.8s;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.submit-btn:hover {
+    background-color: #363636;
+    color: white;
+    border: unset;
+    border-radius: 0;
+}
+
+.navigate-link {
+    color: #CB8670;
+    text-decoration: none;
+}
+
+.google-pic {
+    width: 50px;
+    height: 50px;
+
+}
+
+.google {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #CB8670;
+    border-radius: 5px;
+    cursor: pointer;
+}
