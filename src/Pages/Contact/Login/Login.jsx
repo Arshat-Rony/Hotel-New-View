@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
 import "./Login.css"
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import img from "../../../images/logo/image-removebg-preview (11).png"
 import auth from '../../../firebase.init';
@@ -11,6 +11,8 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
     const navigate = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || "/"
 
     const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
     const handleEmail = e => {
@@ -37,6 +39,7 @@ const Login = () => {
         signInWithGoogle()
             .then(res => {
                 console.log("user created")
+                navigate(from, { replace: true })
             })
     }
     const resetPass = async () => {
@@ -48,6 +51,9 @@ const Login = () => {
     const handleSubmit = e => {
         e.preventDefault()
         signInWithEmailAndPassword(email, pass)
+            .then(res => {
+                navigate(from, { replace: true })
+            })
     }
     return (
         <div className='register text-start'>

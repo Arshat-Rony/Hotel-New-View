@@ -15,7 +15,7 @@ const Features = () => {
         <div className='features-container'>
             <div className='float mb-3'></div>
             <h2 className='fw-bold'>Choose a room </h2>
-            <p className='px-4 '>A portion of space within a building or other structure, separated by walls or partitions from other parts: a dining room. rooms, lodgings or quarters, as in a house or building. the persons present in a room: The whole room laughed.</p>
+            <p className='px-4 text-black'>A portion of space within a building or other structure, separated by walls or partitions from other parts: a dining room. rooms, lodgings or quarters, as in a house or building. the persons present in a room: The whole room laughed.</p>
             <div className="features">
                 {
                     data.map(room => <Feature
